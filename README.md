@@ -30,6 +30,31 @@ This project provides a sample iOS app using State-less Synchronous APIs.
 
 ![pict1](assets/pict1.png)
 
+## Prepare your Micro:bit
+
+With MakeCode,
+
+1. Enable `No Pairing Required` at Project Settings
+
+This allows anyone connect your Micro:bit via bluetooth. It makes easy to connect with iOS apps.
+
+![makecode1](assets/makecode1.png)
+
+2. Make your BLE program and download it into your Micro:bit.
+
+Enable any bluetooth services you want like a led service.
+Don't use Music functions if you will use P0 IO Pin because Music function uses the Pin.
+
+Download the program into your Micro:bit.
+You need to do this once first. 
+The program will be used for any iOS apps that communicate with the BLE services you chose.
+
+![makecode2](assets/makecode2.png)
+
+## Run the sample iOS app
+
+## Considerations
+
 ## References
 
 1. BBC micro:bit Bluetooth Profile, Lancaster University: https://lancaster-university.github.io/microbit-docs/ble/profile/
