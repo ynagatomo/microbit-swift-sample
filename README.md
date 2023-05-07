@@ -53,7 +53,23 @@ The program will be used for any iOS apps that communicate with the BLE services
 
 ## Run the sample iOS app
 
+Build this project and run it on iPhone or iPad.
+When tapping `Connect` button, it will connect to a Micro:bit found first.
+
+If it failed, please check Micro:bit program and settings, `No Pairing Required`.
+
 ## Considerations
+
+1. Running on macOS
+
+This project's app can run on macOS by build for Mac (Designed for iPad).
+
+2. Developing with Swift Playgrounds on iPad
+
+You can import the Swift Package, microbit-swift-controller, into the Swift Playgrounds project.
+Make a similar app like this project and you can build it on iPad.
+
+![playgrounds](assets/playgrounds.png)
 
 ## References
 
