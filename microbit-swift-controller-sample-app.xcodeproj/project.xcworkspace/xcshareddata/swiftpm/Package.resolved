@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "microbit-swift-controller",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ynagatomo/microbit-swift-controller",
+      "state" : {
+        "branch" : "main",
+        "revision" : "9d74a32833950b11aa756e72d6a3d4e6bb2f3fd5"
+      }
+    }
+  ],
+  "version" : 2
+}
